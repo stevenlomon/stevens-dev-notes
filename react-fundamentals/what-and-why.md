@@ -1,4 +1,4 @@
-# What and Why (big picture + mental model)
+# What and Why
 
 ## Prerequisite Checklist
 
@@ -54,3 +54,5 @@ Two other main benefits include:
 
 ### Are there merits of NOT using React?
 Maybe if we are building something ultra-lightweight or completely static like a personal blog. Or if we have a tiny interactive element that requires just a few lines of code, setting up a full build tool chain introduces unnecessary complexity and asset overhead for the browser to download.
+
+These notes continue in clearly seeing [The Big Picture and exploring Mental Models](big-picture-and-mental-models.md)

@@ -32,7 +32,7 @@ In one clean sentence:
 Some of my own confusions and curiosities cleared up:
 * **"Is it a library or a framework?"** It is a **library**. Next.js is an example of a framework. It touches the application architecture; routing, data-fetching, server management etc etc.   
 **React focuses on one thing: <mark>translating state into UI</mark>**
-	* Furthermore; **Next.js is built on top of React.** So the natural Full Stack learning progression goes JavaScript -> React -> Next.js (when being somewhat comfortable with TypeScript and more importantly Backend fundamentals through libraries like Express).   
+	* Furthermore; **[Next.js is built on top of React.](./../next.js-fundamentals/what-and-why.md)** So the natural Full Stack learning progression goes JavaScript -> React -> [Next.js](./../next.js-fundamentals/what-and-why.md) (when being somewhat comfortable with TypeScript and more importantly Backend fundamentals through libraries like Express).   
   Since Next.js is built on top of React, **any time spent learning and understanding React is not wasted since it builds into Next.js, just like any time spent learning and understanding JavaScript is not wasted since it builds into React.**
 * **"Is it built "on top" of JavaScript?"** No. React **is** pure JavaScript. Under the hood, a JSX file is transformed into JavaScript by a build tool.
 * **"Does it need a build tool like Vite?"** Technically, no, but practically, **yes**. Browsers do not understand JSX out of the box. A build tool compiles JSX into standard JavaScript, optimizes our assets, bundles dependencies, and ensures the application runs at maximum efficiency when it reaches the browser.
